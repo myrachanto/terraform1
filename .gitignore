@@ -1,0 +1,10 @@
+#local terrafrom deirectory
+.terraform/*
+
+#tf state files
+*.tfstate
+*.tfstate.*
+
+
+#variable tf files -senstive data
+*.tfvars
